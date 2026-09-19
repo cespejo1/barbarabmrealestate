@@ -30,5 +30,5 @@ export const listings = [
     price: 'Coming soon',
     details: '3 beds  ·  2 baths  ·  Garden',
     image: '/listing-bungalow.png',
-  },
+  }, //
 ];
