@@ -1,0 +1,3 @@
+module.exports=[33290,a=>{"use strict";var b=a.i(7997);let c={metadataBase:new URL("https://barbarabmrealestate.com"),title:"Barbara B.M. Real Estate | South Florida Real Estate",description:"Thoughtful guidance for buying and selling exceptional homes in South Florida.",openGraph:{title:"Barbara B.M. Real Estate",description:"Local insight. Personal service. A smarter way home.",type:"website",images:[{url:"/hero-home.png",width:1920,height:1024}]}};a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{children:a})})},"metadata",0,c])},70864,a=>{a.n(a.i(33290))}];
+
+//# sourceMappingURL=app_layout_tsx_13yf0ls._.js.map
