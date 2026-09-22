@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { site } from './site-data';
 import './globals.css';
+import './contact-form.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),

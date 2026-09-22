@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import ContactForm from '../components/ContactForm';
 import { site } from '../site-data';
 
 export const metadata: Metadata = {
@@ -52,9 +53,9 @@ export default function SpanishHome() {
 
       <section className="quote"><div className="shell"><p className="eyebrow light">La diferencia de Barbara</p><blockquote>“Un hogar es mucho más que una transacción. Es donde comienza el próximo capítulo de tu historia.”</blockquote><p className="signature">Barbara <span>Asesora de bienes raíces</span></p></div></section>
 
-      <section className="contact" id="contact"><div className="shell contact-grid"><div><p className="eyebrow">Conversemos</p><h2>Tu próximo paso<br /><em>comienza aquí.</em></h2></div><div className="contact-copy"><p>Cuéntame qué estás buscando o qué estás listo para dejar atrás. Me encantará conocer tu historia.</p><a className="email" href={`mailto:${site.email}`}>{site.email} <Arrow /></a><div className="contact-options"><span><b>Comprar</b>Encuentra el hogar ideal</span><span><b>Vender</b>Prepara un gran lanzamiento</span><span><b>Reubicarte</b>Conoce la zona</span></div></div></div></section>
+      <section className="contact" id="contact"><div className="shell contact-grid"><div><p className="eyebrow">Conversemos</p><h2>Tu próximo paso<br /><em>comienza aquí.</em></h2></div><div className="contact-copy"><p>Cuéntame qué estás buscando o qué estás listo para dejar atrás. Me encantará conocer tu historia.</p><ContactForm language="es" /></div></div></section>
 
-      <footer className="footer shell"><a className="brand" href="#top"><span className="brand-mark">{site.shortName}</span><span>{site.name}<small>Sur de Florida</small></span></a><p>Orientación personal para tu próximo paso.</p><div><Link href="/" hrefLang="en">English</Link><a href={`mailto:${site.email}`}>Correo</a><a href="#top">Volver arriba ↑</a><span>© {new Date().getFullYear()}</span></div></footer>
+      <footer className="footer shell"><a className="brand" href="#top"><span className="brand-mark">{site.shortName}</span><span>{site.name}<small>Sur de Florida</small></span></a><p>Orientación personal para tu próximo paso.</p><div><Link href="/" hrefLang="en">English</Link><a href="#contact">Contacto</a><a href="#top">Volver arriba ↑</a><span>© {new Date().getFullYear()}</span></div></footer>
     </main>
   );
 }

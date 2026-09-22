@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import ContactForm from './components/ContactForm';
 import { listings, site } from './site-data';
 
 const Arrow = () => <span aria-hidden="true">↗</span>;
@@ -10,7 +11,6 @@ export default function Home() {
     '@type': 'RealEstateAgent',
     name: site.name,
     url: site.url,
-    email: site.email,
     image: `${site.url}/hero-home.png`,
     areaServed: [
       { '@type': 'AdministrativeArea', name: 'South Florida' },
@@ -81,10 +81,10 @@ export default function Home() {
 
       <section className="contact" id="contact"><div className="shell contact-grid">
         <div><p className="eyebrow">Let&apos;s connect</p><h2>Your next move<br /><em>starts here.</em></h2></div>
-        <div className="contact-copy"><p>Tell me a little about what you&apos;re looking for—or what you&apos;re ready to leave behind. I&apos;d love to hear your story.</p><a className="email" href={`mailto:${site.email}`}>{site.email} <Arrow /></a><div className="contact-options"><span><b>Buying</b>Find a home that fits</span><span><b>Selling</b>Plan your strongest launch</span><span><b>Relocating</b>Get to know the area</span></div></div>
+        <div className="contact-copy"><p>Tell me a little about what you&apos;re looking for—or what you&apos;re ready to leave behind. I&apos;d love to hear your story.</p><ContactForm language="en" /></div>
       </div></section>
 
-      <footer className="footer shell"><a className="brand" href="#top"><span className="brand-mark">{site.shortName}</span><span>{site.name}<small>{site.market}</small></span></a><p>Personal guidance for your next move.</p><div><Link href="/es" hrefLang="es">Español</Link><a href={`mailto:${site.email}`}>Email</a><a href="#top">Back to top ↑</a><span>© {new Date().getFullYear()}</span></div></footer>
+      <footer className="footer shell"><a className="brand" href="#top"><span className="brand-mark">{site.shortName}</span><span>{site.name}<small>{site.market}</small></span></a><p>Personal guidance for your next move.</p><div><Link href="/es" hrefLang="es">Español</Link><a href="#contact">Contact</a><a href="#top">Back to top ↑</a><span>© {new Date().getFullYear()}</span></div></footer>
     </main>
   );
 }
