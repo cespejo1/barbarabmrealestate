@@ -1,27 +1,43 @@
 [
   {
     "route": "/",
-    "firstLoadUncompressedJsBytes": 529742,
+    "firstLoadUncompressedJsBytes": 534837,
     "firstLoadChunkPaths": [
-      ".next/static/chunks/0fsi8lw5utejl.js",
-      ".next/static/chunks/0d3tkj33oycf2.js",
-      ".next/static/chunks/07mne3zcixcz2.js",
-      ".next/static/chunks/11qk_vpw_zwkf.js",
-      ".next/static/chunks/03vcybz4ldxd4.js",
+      ".next/static/chunks/01xlw8hd842-c.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/13a8owuxc__or.js",
+      ".next/static/chunks/045g~0~zva_mv.js",
+      ".next/static/chunks/0dgq26a5_oy.a.js",
       ".next/static/chunks/10u3y4bw1ayzs.js",
-      ".next/static/chunks/turbopack-0kroxf~4lmog9.js"
+      ".next/static/chunks/02g3221oh~3le.js",
+      ".next/static/chunks/turbopack-0uj0wxl2dgb09.js"
+    ]
+  },
+  {
+    "route": "/es",
+    "firstLoadUncompressedJsBytes": 534837,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/01xlw8hd842-c.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/13a8owuxc__or.js",
+      ".next/static/chunks/045g~0~zva_mv.js",
+      ".next/static/chunks/0dgq26a5_oy.a.js",
+      ".next/static/chunks/10u3y4bw1ayzs.js",
+      ".next/static/chunks/02g3221oh~3le.js",
+      ".next/static/chunks/turbopack-0uj0wxl2dgb09.js"
     ]
   },
   {
     "route": "/_not-found",
-    "firstLoadUncompressedJsBytes": 514502,
+    "firstLoadUncompressedJsBytes": 514649,
     "firstLoadChunkPaths": [
-      ".next/static/chunks/0fsi8lw5utejl.js",
-      ".next/static/chunks/0d3tkj33oycf2.js",
-      ".next/static/chunks/11qk_vpw_zwkf.js",
-      ".next/static/chunks/03vcybz4ldxd4.js",
+      ".next/static/chunks/01xlw8hd842-c.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/045g~0~zva_mv.js",
+      ".next/static/chunks/0dgq26a5_oy.a.js",
       ".next/static/chunks/10u3y4bw1ayzs.js",
-      ".next/static/chunks/turbopack-0kroxf~4lmog9.js"
+      ".next/static/chunks/02g3221oh~3le.js",
+      ".next/static/chunks/turbopack-0uj0wxl2dgb09.js"
     ]
   }
 ]

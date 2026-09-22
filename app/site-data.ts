@@ -4,6 +4,8 @@ export const site = {
   agentName: 'Barbara',
   market: 'South Florida',
   email: 'hello@barbarabmrealestate.com',
+  url: 'https://barbarabmrealestate.com',
+  serviceAreas: ['Wellington', 'West Palm Beach', 'Fort Lauderdale', 'Miami'],
 };
 
 export const listings = [
@@ -30,5 +32,5 @@ export const listings = [
     price: 'Coming soon',
     details: '3 beds  ·  2 baths  ·  Garden',
     image: '/listing-bungalow.png',
-  }, //
+  },
 ];
