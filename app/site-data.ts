@@ -4,7 +4,7 @@ export const site = {
   agentName: 'Barbara',
   market: 'South Florida',
   email: 'hello@barbarabmrealestate.com',
-  url: 'https://barbarabmrealestate.com',
+  url: 'https://www.barbarabmrealestate.com',
   serviceAreas: ['Wellington', 'West Palm Beach', 'Fort Lauderdale', 'Miami'],
 };
 

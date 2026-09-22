@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
+import { site } from './site-data';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://barbarabmrealestate.com'),
+  metadataBase: new URL(site.url),
   title: {
     default: 'South Florida Real Estate | Barbara B.M. Real Estate',
     template: '%s | Barbara B.M. Real Estate',
