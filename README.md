@@ -21,7 +21,7 @@ The English and Spanish contact forms send inquiries through Resend. Add these v
 - `CONTACT_TO_EMAIL`: the inbox that should receive inquiries (currently `barbarabm02@gmail.com`). Change this variable and redeploy whenever inquiries need to go elsewhere.
 - `CONTACT_FROM_EMAIL` (optional): defaults to `Barbara B.M. Real Estate <inquiries@barbarabmrealestate.com>`. The address must use the verified sending domain; it does not need to be a receiving mailbox.
 
-The submitted visitor address is set as Reply-To, so replying to an inquiry addresses the visitor. No emails are sent until both required variables are configured. After deployment, send one real test submission and confirm it reaches the intended inbox. See `.env.example` for local setup.
+The submitted visitor address is set as Reply-To, so replying to an inquiry addresses the visitor. No emails are sent until both required variables are configured. After deployment, send one real test submission and confirm it reaches the intended inbox. For local development, put these variables in a gitignored `.env.local` file.
 
 Then run:
 

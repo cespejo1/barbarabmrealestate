@@ -7,7 +7,6 @@
 
 # local environment files
 .env*
-!.env.example
 
 # system files
 .DS_Store
